@@ -40,11 +40,7 @@ nmap ++ <plug>NERDCommenterToggle
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * NERDTree
 
-let g:dbs = [
-\ { 'name': 'predev', 'url': 'oracle:jpcerinzaz/TM36JYTAIL@10.0.30.10:1521/uisdb01' },
-\ { 'name': 'develop', 'url': 'oracle:jpcerinzaz/TM36JYTAIL@10.0.30.9:1521/uisdb01' },
-\ { 'name': 'preprod', 'url': 'oracle:jpcerinzaz/TM36JYTAIL@10.0.30.8:1521/uisdb01' },
-\ ]
+
 
 
 let g:NERDTreeGitStatusWithFlags = 1
